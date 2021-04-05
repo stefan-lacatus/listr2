@@ -56,7 +56,7 @@ export class Task<Ctx, Renderer extends ListrRendererFactory> {
     rollback?: string
     /** Retry messages */
     retry?: { count: number, withError?: any }
-  }
+  } = {}
   /** Per task options for the current renderer of the task. */
   public rendererTaskOptions: ListrGetRendererTaskOptions<Renderer>
 

@@ -4418,6 +4418,25 @@ ts-node@^10.4.0:
     make-error "^1.1.1"
     yn "3.1.1"
 
+ts-node@^10.5.0:
+  version "10.5.0"
+  resolved "https://registry.yarnpkg.com/ts-node/-/ts-node-10.5.0.tgz#618bef5854c1fbbedf5e31465cbb224a1d524ef9"
+  integrity sha512-6kEJKwVxAJ35W4akuiysfKwKmjkbYxwQMTBaAxo9KKAx/Yd26mPUyhGz3ji+EsJoAgrLqVsYHNuuYwQe22lbtw==
+  dependencies:
+    "@cspotcode/source-map-support" "0.7.0"
+    "@tsconfig/node10" "^1.0.7"
+    "@tsconfig/node12" "^1.0.7"
+    "@tsconfig/node14" "^1.0.0"
+    "@tsconfig/node16" "^1.0.2"
+    acorn "^8.4.1"
+    acorn-walk "^8.1.1"
+    arg "^4.1.0"
+    create-require "^1.1.0"
+    diff "^4.0.1"
+    make-error "^1.1.1"
+    v8-compile-cache-lib "^3.0.0"
+    yn "3.1.1"
+
 tsconfig-paths@^3.12.0:
   version "3.12.0"
   resolved "https://registry.yarnpkg.com/tsconfig-paths/-/tsconfig-paths-3.12.0.tgz#19769aca6ee8f6a1a341e38c8fa45dd9fb18899b"
@@ -4501,10 +4520,10 @@ typedarray-to-buffer@^3.1.5:
   dependencies:
     is-typedarray "^1.0.0"
 
-typedoc-plugin-markdown@^3.11.12:
-  version "3.11.12"
-  resolved "https://registry.yarnpkg.com/typedoc-plugin-markdown/-/typedoc-plugin-markdown-3.11.12.tgz#04f4740534d19728696a5c0ccc35f319bcb93b31"
-  integrity sha512-gb/RuzgZ1zCnRUOqUg6firIqU7xDs9s7hq0vlU/gAsFfVCnpl3NTM9vPyPON75nnpfVFCxr/hmKQ01k1CYY/Qg==
+typedoc-plugin-markdown@^3.11.13:
+  version "3.11.13"
+  resolved "https://registry.yarnpkg.com/typedoc-plugin-markdown/-/typedoc-plugin-markdown-3.11.13.tgz#d0c937d60bd58b117fa6600a99b9278bcc251fae"
+  integrity sha512-9Y7eWWmUF5i8LMfetPlOP+kTn5L3Q71fm/AUHZhxWYoAiugbybQujhjQk4h09uY2WghPP2BldOivtTxnOwj85A==
   dependencies:
     handlebars "^4.7.7"
 
@@ -4524,10 +4543,10 @@ typescript@^4.4.3:
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.5.5.tgz#d8c953832d28924a9e3d37c73d729c846c5896f3"
   integrity sha512-TCTIul70LyWe6IJWT8QSYeA54WQe8EjQFU4wY52Fasj5UKx88LNYKCgBEHcOMOrFF1rKGbD8v/xcNWVUq9SymA==
 
-typescript@^4.6.0-dev.20220131:
-  version "4.6.0-dev.20220131"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.6.0-dev.20220131.tgz#5660d0ef3e11e7d989b9d68d51110832c498d452"
-  integrity sha512-8iguijOxKezSxnt1y2KrlRN6OAI1bpibu6FEJJPeS58XB/QzqWWlfPLUkf1eUz18TUm9w97ihbOnoy3EChmJww==
+typescript@^4.6.0-dev.20220209:
+  version "4.6.0-dev.20220209"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.6.0-dev.20220209.tgz#e50fbf9838cd1d102398c360dbc7d5e2b17be4d9"
+  integrity sha512-T55LJkTXli4n2+zjAkxTXXM2aCUErlEnJGcNInZh/GWCwlEKWHWRDZ8d7Ow1NSGUGwJHjb/cnESptrsCP5p8PA==
 
 uglify-js@^3.1.4:
   version "3.15.0"
@@ -4562,6 +4581,11 @@ uri-js@^4.2.2:
   integrity sha512-7rKUyy33Q1yc98pQ1DAmLtwX109F7TIfWlW1Ydo8Wl1ii1SeHieeh0HHfPeL2fMXK6z0s8ecKs9frCuLJvndBg==
   dependencies:
     punycode "^2.1.0"
+
+v8-compile-cache-lib@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/v8-compile-cache-lib/-/v8-compile-cache-lib-3.0.0.tgz#0582bcb1c74f3a2ee46487ceecf372e46bce53e8"
+  integrity sha512-mpSYqfsFvASnSn5qMiwrr4VKfumbPyONLCOPmsR3A6pTY/r0+tSaVbgPWSAIuzbk3lCTa+FForeTiO+wBQGkjA==
 
 v8-compile-cache@^2.0.3:
   version "2.3.0"
